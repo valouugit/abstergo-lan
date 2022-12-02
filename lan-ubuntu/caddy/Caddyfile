@@ -1,0 +1,9 @@
+:80 {
+	@isInFirst file {
+		root /erp
+	}
+	root @isInFirst /erp
+	root * /wiki
+
+	file_server
+}
