@@ -1,0 +1,4 @@
+http://vitrine.abstergo.internal {
+	root * /srv/erp
+	file_server
+}

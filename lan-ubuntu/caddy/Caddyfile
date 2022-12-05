@@ -1,9 +1,9 @@
-:80 {
-	@isInFirst file {
-		root /erp
-	}
-	root @isInFirst /erp
-	root * /wiki
+http://erp.abstergo.internal {
+	root * /srv/erp
+	file_server
+}
 
+http://wiki.abstergo.internal {
+	root * /srv/wiki
 	file_server
 }
